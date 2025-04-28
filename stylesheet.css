@@ -1,3 +1,8 @@
+body {
+    font-family: "Inconsolata", sans-serif;
+    transition: all 0.1s ease;
+}
+
 body.light-theme {
     background-color: #f8f9fa;
     color: #212529;
@@ -6,6 +11,19 @@ body.light-theme {
 body.light-theme .bg-secondary {
     background-color: #e9ecef !important;
     color: #212529;
+    color: #212529;
+    background-image: radial-gradient(circle, #d4d4d4 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+body.dark-theme strong {
+    color: #00bc8c;
+}
+
+body.light-theme strong {
+    color: #0d6efd;
 }
 
 body.light-theme .navbar {
@@ -26,6 +44,15 @@ body.light-theme a{
     color: #0d6efd;
 }
 
+body.light-theme .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+body.light-theme .btn-primary:hover {
+    background-color: #0059df;
+    border: none;
+}
+
 body.light-theme .btn {
     color: white;
 }
@@ -36,4 +63,55 @@ body.light-theme .btn:hover {
 
 body.light-theme a:hover {
     color: black;
+}
+
+body.light-theme #themeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+}
+
+
+body.dark-theme #themeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(117, 117, 117);
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+}
+
+body.dark-theme .btn-primary {
+    border: none;
+    background-color: #00bc8c;
+}
+
+body.dark-theme .btn-primary:hover {
+    border: none;
+    background-color: #008866;
+}
+
+body.dark-theme .bg-secondary {
+    background-color: #4d4d4d !important;
+    background-image: radial-gradient(circle, #29292962 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0;
+    background-repeat: repeat;
 }

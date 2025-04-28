@@ -1,6 +1,6 @@
-const toggle = document.getElementById("themeToggle");
+const themeToggle = document.getElementById("themeToggle");
 const body = document.getElementById("bodyTheme");
-toggle.addEventListener("click", ()=>
+themeToggle.addEventListener("click", ()=>
 {
     if (body.classList.contains("dark-theme"))
     {

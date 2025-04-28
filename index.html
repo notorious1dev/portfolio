@@ -10,13 +10,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
-<body class="dark-theme" id="bodyTheme">
+<body class="light-theme" id="bodyTheme">
 <!-- Header with Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
-        <a class="navbar-brand" href="#">NotoriousDev</a>
+        <a class="navbar-brand" href="">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,7 +30,7 @@
             <li class="nav-item">
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about">Prologue</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects & Experience</a>
@@ -35,22 +38,43 @@
             <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item">
-                <a class="btn btn-primary" id="themeToggle">Change Theme</a>
-            </li>
             </ul>
         </div>
         </div>
     </nav>
-
-    <!-- About -->
+    <!-- Prologue -->
     <div id="about" class="bg-secondary p-5">
         <div class="container">
-            <h1>Hello, i'm <span>Dmytro Sarzhovskyi</span>!</h1>
-            <p>I'm a second-year student majoring in Computer Science, passionate about game development, computer science, and bikes.
-            </p>
-            <a href="https://www.linkedin.com/in/dmytro-sarzhovskyi-483415303/" target="_blank">GitHub</a>
-            <a href="https://github.com/defektonec" target="_blank">LinkedIn</a>
+            <h1> Hello, i'm Dmytro Sarzhovskyi!</h1>
+            <p>Software Engineer and Game Developer</p>
+            <a href="https://github.com/defektonec" target="_blank" class="me-3">
+                <i class="fab fa-github fa-lg"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/dmytro-sarzhovskyi-483415303/" target="_blank" class="">
+                <i class="fab fa-linkedin fa-lg"></i> LinkedIn
+            </a>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="container">
+            <h3><i class="bi bi-dot"></i>About me:</h3>
+
+            <p>I'm a second-year Applied Computer Science student at the <strong>College of Economics and Computer Science in Kraków</strong>, specializing in Computer Games and Multimedia. 
+                I am passionate about <u>game development, software engineering, and multimedia design.</u>
+                Always eager to learn and improve, I'm looking for opportunities to apply my technical skills, creativity, and problem-solving mindset in real-world projects.</p>
+        </div>
+
+        <div class="container mt-5">
+            <h3><i class="bi bi-dot"></i>Education:</h3>
+            <h4>// College of Economics and Computer Science (Poland, Cracow)</h4>
+            <h6>Bachelor's Degree in Applied Computer Science (Computer Games and Multimedia)</h6>
+            <p>October 2023 - March 2027</p>
+
+                    <!-- CV Button -->
+        <div class="text-right mt-5">
+            <a href="./documents/cv_dmytro_sarzhovskyi.pdf" class="btn btn-primary" target="_blank">Open My CV</a>
+        </div>
         </div>
     </div>
 
@@ -65,7 +89,7 @@
             <!-- Video -->
             <div class="col-md-6 mb-4">
                 <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/5WRJO9A8Y6k?si=l2GUXrajQwDk_XiP" title="YouTube video" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/5WRJO9A8Y6k?si=YqI_wlCqsYZwpV66" title="YouTube video" allowfullscreen></iframe>
                 </div>
             </div>
         
@@ -136,52 +160,51 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
 
-<!-- Soft Skills Section -->
-<div class=" py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Soft Skills</h2>
-        <div class="row">
-            <!-- Soft Skills Cards -->
             <div class="col-md-4 mb-4">
-                <div class="card h-100 bg-secondary">
+                <div class="card d-flex h-100">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Communication</h5>
-                        <p class="card-text">Ability to effectively communicate ideas, both verbally and in writing, with colleagues, stakeholders, and clients.</p>
+                        <h5 class="card-title d-flex justify-content-center align-items-center">
+                            <p>&lt;\Communication&gt;</p>
+                        </h5>
+                        <p class="card-text">Ability to effectively communicate ideas, both verbally and in writing, with colleagues, stakeholders, and clients</p>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 mb-4">
-                <div class="card h-100 bg-secondary">
+                <div class="card d-flex h-100">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Teamwork</h5>
+                        <h5 class="card-title d-flex justify-content-center align-items-center">
+                            <p>&lt;\Team Work&gt;</p>
+                        </h5>
                         <p class="card-text">Proven experience in working with diverse teams to accomplish shared goals and deliver quality results.</p>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 mb-4">
-                <div class="card h-100 bg-secondary">
+                <div class="card d-flex h-100">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Problem Solving</h5>
+                        <h5 class="card-title d-flex justify-content-center align-items-center">
+                            <p>&lt;\Problem Solving&gt;</p>
+                        </h5>
                         <p class="card-text">Ability to think critically and creatively to find innovative solutions to complex challenges.</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- CV Button -->
-        <div class="text-center">
-            <a href="./documents/cv_dmytro_sarzhovskyi.pdf" class="btn btn-primary" target="_blank">Open My CV</a>
-        </div>
     </div>
 </div>
 
-<footer class="bg-secondary py-4">
+<!-- Theme toggle -->
+<button class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i> <!-- Icon inside -->
+</button>
+
+<footer class=" py-4">
     <div class="container text-center">
-        <p>&copy; 2025 Notorious Dev. All rights reserved.</p>
+        <p>&copy; 2025 Dmytro Sarzhovskyi. All rights reserved.</p>
         <div>
             <a href="https://github.com/defektonec" target="_blank" class="me-3">
                 <i class="fab fa-github fa-lg"></i> GitHub
@@ -194,5 +217,4 @@
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./script.js"></script>
-</body>
 </html>
